@@ -76,7 +76,7 @@ function music(){
 }
 function tweet(text){
 //var text = document.getElementById("tweet").value;
-$.getJSON("http://toma.webcrow.jp/music/tweet.php?text="+ encodeURI(text) ,function(json){
+$.getJSON("http://localhost/tweet.php?text="+ encodeURI(text) ,function(json){
   if(json.status == "true"){
   //alert("success");
   document.getElementById("tweet").value = "";
