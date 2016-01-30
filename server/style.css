@@ -1,0 +1,34 @@
+body {
+    background-color: palegreen;
+    text-align: center;
+}
+p#musicname {
+    border-bottom: 1px;
+    border-color: deepskyblue;
+}
+button {
+    width: 80px;
+    height: 50px;
+}
+button#load {
+    display: none;
+}
+audio {
+    display: none;
+}
+table {
+     margin-left: auto;
+     margin-right: auto;
+}
+td {
+    text-align: center;
+}
+td#file {
+    width: 300px;
+}
+td#time {
+    width: 40px;
+}
+td#button {
+    width: 85px;
+}
