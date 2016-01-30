@@ -1,0 +1,7 @@
+<Files ~ ".(mp3)$">
+SetEnvIf Referer "^http://localhost/" ShowOK
+SetEnvIf Referer "^$" ShowOK
+order deny,allow
+deny from all
+allow from env=ShowOK
+</Files>
